@@ -25,10 +25,6 @@ pAdic n p  = myCircle `atop` (scale r circles)
           r = sin (pi / q) / (sin (pi / q) + 1)
           q = fromIntegral p
 
-visPoints :: [P2 Double] -> Diagram B
-visPoints pts = atPoints pts (repeat (circle 0.5 # fc blue))
-
-
 -- square is used for padding 
 createDiagram :: Int -> Int -> Diagram B
 createDiagram p depth  = (pAdic depth p) `atop` square 2.1 # fc white # lw none 
