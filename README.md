@@ -30,10 +30,10 @@ See comment on line 11 in `Main.hs`.
 ## Examples 
 
 <p align="center">
-<img src="img/z3.png" alt="Z3 colored red" width="250"> <img src="img/z5.png" alt="Z5 colored blue" width="250"> <img src="img/z7.png" alt="Z7 colored green" width="250">
+<img src="img/z3.png" alt="Z3 colored red" width="250"> <img src="img/z7.png" alt="Z7 colored green" width="250"> <img src="img/z2.png" alt="Z2" width="250">
 </p>
 
-*Note gap in the last image. It is easy to make adjusments like this by simple modification of code.*
+*First image is the original output of this script. Second one has a slight gap between circles (this is obtained by adding `# scale 0.9` to appropriate place in the `pAdic` functiion). Third image is obtained by changing a few lines of code. It is easy to make adjusments like this by simple modification of code.*
 
 ## Credits
 
